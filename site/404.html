@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Asleepius Tech</title>
+  <script>
+    (function () {
+      var match = location.pathname.match(/\/c\/([A-Za-z0-9-]+)\/?$/);
+      var base = location.pathname.replace(/\/c\/[^/]+\/?$/, "/");
+      if (!match) base = location.pathname.replace(/\/[^/]*$/, "/");
+      var target = base + (match ? ("?c=" + encodeURIComponent(match[1])) : "");
+      location.replace(target || "/");
+    })();
+  </script>
+</head>
+<body>
+  <p>Opening the card…</p>
+</body>
+</html>
