@@ -1,8 +1,4 @@
-// Supabase → Project Settings → API.
-// supabaseUrl is the Project URL.
-// supabaseAnonKey is the anon public key.
-// Leave the service_role key in Supabase. It does not belong on this page.
 window.AT_SITE = {
-  supabaseUrl: "",
-  supabaseAnonKey: ""
+  supabaseUrl: "https://yclxzywcfqonfgnxxigh.supabase.co",
+  supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InljbHh6eXdjZnFvbmZnbnh4aWdoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI3MjAzMjUsImV4cCI6MjEwODI5NjMyNX0.7NQU1GR7N9PrZex3D59xSOernZiSVhPNGNy8a4Yxugc"
 };
